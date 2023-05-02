@@ -1,0 +1,17 @@
+div{
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+}
+h3{
+    color: aqua;
+    font-size: 30px;
+
+}
+img{
+    margin: 10px;
+}
+button{
+    width: 450px;
+    height: 150px;
+}
