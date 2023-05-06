@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: brown;
+
+}
+li{
+    list-style-type: none;
+    margin-top: 27px;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid grey;
+}
+a{
+    text-decoration: none;
+    padding: 9px;
+}
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 28%;
+    grid-template-rows: 3800px;
+    grid-template-areas:"section aside";
+    justify-content: space-around;
+}
+section{
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+aside{
+    padding: 5px;
+    grid-area: aside;
+    border: 1px solid grey;
+}
+aside img{
+    width: 85%;
+    margin: 10px;
+}
+div{
+    width: 70%;
+    height: 1200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+div img{
+    width: 300px;
+    object-fit: cover;
+}
+div h1,p,h2{
+    text-align: center;
+}
+div button{
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(0, 255, 8);
+    font-weight: 600;
+}
+p{
+    font-size: 28px;
+}
+footer,header{
+    width: 97%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px;
+}
+header{
+    height: 100px;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+    font-size: 30px;
+    color: rgba(74, 170, 11, 0.606);
+}
+aside h2{
+    margin: 19px;
+}
