@@ -1,17 +1,59 @@
-div{
-    text-align: center;
-    border: 2px solid black;
-    margin: 20px;
+*{
+    margin: 0;
+    padding: 0;
 }
-h3{
-    color: aqua;
-    font-size: 30px;
+body{
+    background-color: brown;
 
 }
-img{
-    margin: 10px;
+header{
+    width: 100%;
+    height: 100px;
+
 }
-button{
-    width: 450px;
-    height: 150px;
+
+main{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 28%;
+    grid-template-rows: 1700px;
+    grid-template-areas:"section aside";
+    justify-content: space-around;
+}
+section{
+    grid-area: section;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+aside{
+    grid-area: aside;
+}
+div{
+    width: 70%;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+div img{
+    width: 300px;
+}
+div h2{
+    text-align: center;
+}
+div button{
+    width: 50%;
+    height: 40px;
+}
+
+footer{
+    width: 97%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px;
 }
